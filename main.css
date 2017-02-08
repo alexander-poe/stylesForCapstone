@@ -35,6 +35,10 @@ img.messageIcon {
 	padding-right: 6px;
 }
 
+.container {
+	padding-bottom: 100px;
+}
+
 .navButton {
 	display: inline;
 	color: white;
