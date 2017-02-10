@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
@@ -35,14 +36,18 @@ img.messageIcon {
 	padding-right: 6px;
 }
 
+img.galleryThumbnail {
+	width: 150px;
+	height: 100px;
+}
+
 .container {
 	padding-bottom: 100px;
 }
 
 .navButton {
-	display: inline;
 	color: white;
-	height: 30px;
+	height: 46px;
 	padding: 15px;
 	background-color: #E46651;
 }
@@ -55,7 +60,8 @@ img.messageIcon {
 
 .nodeTitle {
 	text-align: center;
-    padding-right: 29px;
+    padding-right: 43px;
+    padding-top: 14px;
     color: white;
 }
 
@@ -74,5 +80,76 @@ img.messageIcon {
 .uploadButton {
 	height: 50px;
 	float: right;
-	padding: 8px;
+	padding-bottom: 19px;
+	margin: -6px;
+	filter: invert(100%);
+}
+
+.galleryZoomed {
+	background: rgba(0, 0, 0, 1);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding-top: 100px;
+	padding-left: 5%;
+	padding-right: 5%;	
+
+}
+
+.galleryContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 17px;
+	padding-left: 5%;
+}
+
+.galleryContainer div {
+	width: 150px;
+	height: 100px;
+	background-image: url(familyPhoto3.jpg);
+	margin: 5px;
+}
+
+.zoomedNav {
+	display: flex;
+	justify-content: center;
+}
+
+.zoomedNav img {
+	filter: invert(100%);
+	height: 45px;
+	margin: 100px;
+	box-shadow: 2px 141px 173px;
+}
+
+.xIcon {
+	filter: invert(100%);
+	height: 14px;
+	margin: -9px;
+
+}
+
+@media only screen and (min-width: 1000px) {
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+    .node {
+    	margin: 0 auto;
+    }
+    .galleryContainer {
+    	padding-left: 20%;
+    	padding-right: 20%;
+    	padding-top: 55px;
+
+    }
 }
