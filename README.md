@@ -7,4 +7,5 @@ Mobile First Design
 
 ### Main Page Mobile
 
-![full page](./mobilefirstSS.png)
+![full page](./familyZoomed.png)
+![full page](./familyMainPage.png)
